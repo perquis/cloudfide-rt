@@ -1,5 +1,4 @@
 /*
-
 Etap planowania
 
 1. Pobranie danych w celu zidentyfikowania zmian cen kryptowalut, czy kwota została zwiększona, bądź zmniejszona
