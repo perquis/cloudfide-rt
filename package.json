@@ -12,6 +12,7 @@
     "format": "prettier --write --ignore-unknown ./src",
     "type:check": "tsc --noEmit",
     "prepare": "husky",
+    "dev:frontend": "cd frontend && npm run dev",
     "commit": "cz && commitlint"
   },
   "keywords": [],
