@@ -39,19 +39,30 @@ This is a recruitment task to build <name> using Node.js and the `binance-api-no
 
 ## Usage
 
-1. Start the bot:
+1. Start the backend:
+
    ```
    npm run dev
+   ```
+
+2. Start the frontend
+
+   ```
+   npm run dev:frontend
    ```
 
 ## Development
 
 1. Run the development server:
+
    ```
    npm run dev
    ```
+
 2. The server will automatically restart when you make changes to the code.
+
 3. Run tests:
+
    ```
    npm test
    ```
