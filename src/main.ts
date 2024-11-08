@@ -17,12 +17,5 @@ app.use("/api/v3", v3);
 // @ts-ignore
 app.use(errorMiddleware);
 
-/*
-Etap planowania
-
-1. Wyświetlenie danych w jakimś widoku
-    - nastepnie przygotować widok, który umożliwi wyświetlenie wyników na jakimś wykresie po stronie frontendu (REACT, react-charts, react-query od TanStack)
-*/
-
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Server is running on http://localhost:${PORT}`));
