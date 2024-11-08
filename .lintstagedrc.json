@@ -1,0 +1,4 @@
+{
+  "*.spec.ts": ["jest --verbose --passWithNoTests"],
+  "*.ts": ["prettier ./src --write --ignore-unknown"]
+}
